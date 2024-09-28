@@ -1,0 +1,62 @@
+/* Basic Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.toolbar {
+  margin-bottom: 15px;
+}
+
+.toolbar button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background-color: #0069d9;
+}
+
+#chemicalTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#chemicalTable th, #chemicalTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+#chemicalTable th {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+#chemicalTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.selected-row {
+  background-color: #b3d7ff;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[contenteditable="true"] {
+  border: 1px solid #007bff;
+  padding: 5px;
+}

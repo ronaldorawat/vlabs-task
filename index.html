@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chemical Supplies</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Chemical Supplies</h1>
+
+    <!-- Toolbar for row actions -->
+    <div class="toolbar">
+      <button id="add-row">➕ Add Row</button>
+      <button id="move-up">⬆️ Move Up</button>
+      <button id="move-down">⬇️ Move Down</button>
+      <button id="delete-row">🗑️ Delete Row</button>
+      <button id="refresh">🔄 Refresh</button>
+      <button id="save">💾 Save</button>
+      <button id="edit-row">✏️ Edit Row</button>
+    </div>
+
+    <!-- Table to display the chemical supplies -->
+    <table id="chemicalTable">
+      <thead>
+        <tr>
+          <th></th>
+          <th id="sort-chemical">Chemical Name ⬍</th>
+          <th id="sort-vendor">Vendor ⬍</th>
+          <th id="sort-density">Density (g/m³) ⬍</th>
+          <th id="sort-viscosity">Viscosity (m²/s) ⬍</th>
+          <th id="sort-packaging">Packaging ⬍</th>
+          <th id="sort-packsize">Pack Size ⬍</th>
+          <th id="sort-unit">Unit ⬍</th>
+          <th id="sort-quantity">Quantity ⬍</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" class="row-check" /></td>
+          <td>Ammonium Persulfate</td>
+          <td>LG Chem</td>
+          <td>3525.92</td>
+          <td>60.63</td>
+          <td>Bag</td>
+          <td>100.00</td>
+          <td>kg</td>
+          <td>6495.18</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="row-check" /></td>
+          <td>Caustic Potash</td>
+          <td>Formosa</td>
+          <td>3172.15</td>
+          <td>48.22</td>
+          <td>Bag</td>
+          <td>100.00</td>
+          <td>kg</td>
+          <td>8751.90</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
